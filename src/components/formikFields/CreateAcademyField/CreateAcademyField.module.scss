@@ -1,0 +1,61 @@
+.accountField {
+  position: relative;
+  width: 100%;
+
+  .input {
+    width: 100%;
+
+    .successIcon, .visibilityIcon {
+      cursor: pointer;
+      position: absolute;
+    }
+
+    .successIcon {
+      right: 5px;
+      bottom: 10px;
+      width: 12px;
+      height: 10px;
+    }
+
+    .visibilityIcon {
+      right: 0;
+      bottom: 8px;
+      width: 18px;
+      height: 18px;
+    }
+  }
+}
+
+
+.successIcon, .visibilityIcon {
+  cursor: pointer;
+  position: absolute;
+}
+
+.successIcon {
+  right: 5px;
+  bottom: 10px;
+  width: 12px;
+  height: 10px;
+}
+
+.visibilityIcon {
+  right: 0;
+  bottom: 8px;
+  width: 18px;
+  height: 18px;
+}
+
+.error {
+  margin-top: 6px;
+  margin-bottom: 14px;
+  height: 14px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  letter-spacing: -0.1224px;
+  color: #E83326;
+}
+
+
